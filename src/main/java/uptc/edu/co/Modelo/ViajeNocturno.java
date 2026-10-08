@@ -9,6 +9,6 @@ public class ViajeNocturno extends Viaje{
 
     @Override
     public double calcularTarifa() {
-        return 4400+getKilometros()*100+getMinutosDeEspera()*70+500;
+        return 4400+getKilometros()*200+getMinutosDeEspera()*70+500;
     }
 }
